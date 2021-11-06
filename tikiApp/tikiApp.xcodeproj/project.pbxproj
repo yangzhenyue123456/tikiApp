@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538AE95827367C0D0077DA14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AE95727367C0D0077DA14 /* AppDelegate.swift */; };
+		538AE95A27367C0D0077DA14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AE95927367C0D0077DA14 /* SceneDelegate.swift */; };
+		538AE95C27367C0D0077DA14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AE95B27367C0D0077DA14 /* ViewController.swift */; };
+		538AE95F27367C0D0077DA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AE95D27367C0D0077DA14 /* Main.storyboard */; };
+		538AE96127367C100077DA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538AE96027367C100077DA14 /* Assets.xcassets */; };
+		538AE96427367C100077DA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AE96227367C100077DA14 /* LaunchScreen.storyboard */; };
+		538AE96F27367C100077DA14 /* tikiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AE96E27367C100077DA14 /* tikiAppTests.swift */; };
+		538AE97A27367C100077DA14 /* tikiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AE97927367C100077DA14 /* tikiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		538AE96B27367C100077DA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538AE94C27367C0D0077DA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538AE95327367C0D0077DA14;
+			remoteInfo = tikiApp;
+		};
+		538AE97627367C100077DA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538AE94C27367C0D0077DA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538AE95327367C0D0077DA14;
+			remoteInfo = tikiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		538AE95427367C0D0077DA14 /* tikiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tikiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538AE95727367C0D0077DA14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		538AE95927367C0D0077DA14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		538AE95B27367C0D0077DA14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		538AE95E27367C0D0077DA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		538AE96027367C100077DA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538AE96327367C100077DA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		538AE96527367C100077DA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538AE96A27367C100077DA14 /* tikiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tikiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		538AE96E27367C100077DA14 /* tikiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tikiAppTests.swift; sourceTree = "<group>"; };
+		538AE97027367C100077DA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538AE97527367C100077DA14 /* tikiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tikiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		538AE97927367C100077DA14 /* tikiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tikiAppUITests.swift; sourceTree = "<group>"; };
+		538AE97B27367C100077DA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538AE95127367C0D0077DA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AE96727367C100077DA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AE97227367C100077DA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538AE94B27367C0D0077DA14 = {
+			isa = PBXGroup;
+			children = (
+				538AE95627367C0D0077DA14 /* tikiApp */,
+				538AE96D27367C100077DA14 /* tikiAppTests */,
+				538AE97827367C100077DA14 /* tikiAppUITests */,
+				538AE95527367C0D0077DA14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538AE95527367C0D0077DA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538AE95427367C0D0077DA14 /* tikiApp.app */,
+				538AE96A27367C100077DA14 /* tikiAppTests.xctest */,
+				538AE97527367C100077DA14 /* tikiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538AE95627367C0D0077DA14 /* tikiApp */ = {
+			isa = PBXGroup;
+			children = (
+				538AE95727367C0D0077DA14 /* AppDelegate.swift */,
+				538AE95927367C0D0077DA14 /* SceneDelegate.swift */,
+				538AE95B27367C0D0077DA14 /* ViewController.swift */,
+				538AE95D27367C0D0077DA14 /* Main.storyboard */,
+				538AE96027367C100077DA14 /* Assets.xcassets */,
+				538AE96227367C100077DA14 /* LaunchScreen.storyboard */,
+				538AE96527367C100077DA14 /* Info.plist */,
+			);
+			path = tikiApp;
+			sourceTree = "<group>";
+		};
+		538AE96D27367C100077DA14 /* tikiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				538AE96E27367C100077DA14 /* tikiAppTests.swift */,
+				538AE97027367C100077DA14 /* Info.plist */,
+			);
+			path = tikiAppTests;
+			sourceTree = "<group>";
+		};
+		538AE97827367C100077DA14 /* tikiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				538AE97927367C100077DA14 /* tikiAppUITests.swift */,
+				538AE97B27367C100077DA14 /* Info.plist */,
+			);
+			path = tikiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538AE95327367C0D0077DA14 /* tikiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538AE97E27367C100077DA14 /* Build configuration list for PBXNativeTarget "tikiApp" */;
+			buildPhases = (
+				538AE95027367C0D0077DA14 /* Sources */,
+				538AE95127367C0D0077DA14 /* Frameworks */,
+				538AE95227367C0D0077DA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tikiApp;
+			productName = tikiApp;
+			productReference = 538AE95427367C0D0077DA14 /* tikiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		538AE96927367C100077DA14 /* tikiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538AE98127367C100077DA14 /* Build configuration list for PBXNativeTarget "tikiAppTests" */;
+			buildPhases = (
+				538AE96627367C100077DA14 /* Sources */,
+				538AE96727367C100077DA14 /* Frameworks */,
+				538AE96827367C100077DA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538AE96C27367C100077DA14 /* PBXTargetDependency */,
+			);
+			name = tikiAppTests;
+			productName = tikiAppTests;
+			productReference = 538AE96A27367C100077DA14 /* tikiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		538AE97427367C100077DA14 /* tikiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538AE98427367C100077DA14 /* Build configuration list for PBXNativeTarget "tikiAppUITests" */;
+			buildPhases = (
+				538AE97127367C100077DA14 /* Sources */,
+				538AE97227367C100077DA14 /* Frameworks */,
+				538AE97327367C100077DA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538AE97727367C100077DA14 /* PBXTargetDependency */,
+			);
+			name = tikiAppUITests;
+			productName = tikiAppUITests;
+			productReference = 538AE97527367C100077DA14 /* tikiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538AE94C27367C0D0077DA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					538AE95327367C0D0077DA14 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					538AE96927367C100077DA14 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 538AE95327367C0D0077DA14;
+					};
+					538AE97427367C100077DA14 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 538AE95327367C0D0077DA14;
+					};
+				};
+			};
+			buildConfigurationList = 538AE94F27367C0D0077DA14 /* Build configuration list for PBXProject "tikiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538AE94B27367C0D0077DA14;
+			productRefGroup = 538AE95527367C0D0077DA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538AE95327367C0D0077DA14 /* tikiApp */,
+				538AE96927367C100077DA14 /* tikiAppTests */,
+				538AE97427367C100077DA14 /* tikiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538AE95227367C0D0077DA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AE96427367C100077DA14 /* LaunchScreen.storyboard in Resources */,
+				538AE96127367C100077DA14 /* Assets.xcassets in Resources */,
+				538AE95F27367C0D0077DA14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AE96827367C100077DA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AE97327367C100077DA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538AE95027367C0D0077DA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AE95C27367C0D0077DA14 /* ViewController.swift in Sources */,
+				538AE95827367C0D0077DA14 /* AppDelegate.swift in Sources */,
+				538AE95A27367C0D0077DA14 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AE96627367C100077DA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AE96F27367C100077DA14 /* tikiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AE97127367C100077DA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AE97A27367C100077DA14 /* tikiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		538AE96C27367C100077DA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538AE95327367C0D0077DA14 /* tikiApp */;
+			targetProxy = 538AE96B27367C100077DA14 /* PBXContainerItemProxy */;
+		};
+		538AE97727367C100077DA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538AE95327367C0D0077DA14 /* tikiApp */;
+			targetProxy = 538AE97627367C100077DA14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		538AE95D27367C0D0077DA14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538AE95E27367C0D0077DA14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		538AE96227367C100077DA14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538AE96327367C100077DA14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538AE97C27367C100077DA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		538AE97D27367C100077DA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538AE97F27367C100077DA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFP3YNCV5G;
+				INFOPLIST_FILE = tikiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bigo.tikiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		538AE98027367C100077DA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFP3YNCV5G;
+				INFOPLIST_FILE = tikiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bigo.tikiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		538AE98227367C100077DA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFP3YNCV5G;
+				INFOPLIST_FILE = tikiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bigo.tikiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tikiApp.app/tikiApp";
+			};
+			name = Debug;
+		};
+		538AE98327367C100077DA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFP3YNCV5G;
+				INFOPLIST_FILE = tikiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bigo.tikiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tikiApp.app/tikiApp";
+			};
+			name = Release;
+		};
+		538AE98527367C100077DA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFP3YNCV5G;
+				INFOPLIST_FILE = tikiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bigo.tikiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tikiApp;
+			};
+			name = Debug;
+		};
+		538AE98627367C100077DA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFP3YNCV5G;
+				INFOPLIST_FILE = tikiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bigo.tikiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tikiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538AE94F27367C0D0077DA14 /* Build configuration list for PBXProject "tikiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AE97C27367C100077DA14 /* Debug */,
+				538AE97D27367C100077DA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538AE97E27367C100077DA14 /* Build configuration list for PBXNativeTarget "tikiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AE97F27367C100077DA14 /* Debug */,
+				538AE98027367C100077DA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538AE98127367C100077DA14 /* Build configuration list for PBXNativeTarget "tikiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AE98227367C100077DA14 /* Debug */,
+				538AE98327367C100077DA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538AE98427367C100077DA14 /* Build configuration list for PBXNativeTarget "tikiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AE98527367C100077DA14 /* Debug */,
+				538AE98627367C100077DA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538AE94C27367C0D0077DA14 /* Project object */;
+}
